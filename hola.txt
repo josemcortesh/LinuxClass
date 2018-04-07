@@ -1,0 +1,6 @@
+read -p "Tu nombre " nombre
+if [[ $nombre = $USER ]]; then
+ echo "Hello, me "
+else
+ echo "Hello, $nombre "
+fi
